@@ -1,11 +1,6 @@
-name = input("Tell me your name ")
-print(f"Hi how are you? {name} Nice to meet you")
+conjunto = set(["Objeto 1", "objeto 2"])
 
+print(conjunto)
+print(type(conjunto))
 
-
-#? → SOY DALTO 3:07
-
-
-
-
-
+#? → SOY DALTO 3:14

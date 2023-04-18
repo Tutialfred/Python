@@ -59,7 +59,6 @@ lista = ["Alfredo", "Zavala", True, 170.000, "i have to go to work"] #Tipo de da
 # Creando una tupla (no se puede modificar)
 tupla = ("Alfredo", "Zavala", True, 170.000) #Tipo de datos === tupla
 
-
 # Creando un conjunto (set) 
 conjunto = {"Alfredo", "Zavala", True, 170.000} #Elementos desordenados
 # No se accede a elementos por indice, no almacena datos duplicados
@@ -130,7 +129,7 @@ print(not True) #=== False
 
 #! Métodos de String
 name = "Alfredo Zavala"
-position = "Backend Developer SemiSenior"
+numero = 750
 
 # Convierte a Mayuscula
 mayuscula = name.upper()
@@ -171,8 +170,8 @@ cadena_new = name.replace("Alfredo" , "Tuti")
 # Separar cadenas con la cadena que le pasemos
 cadena_list = name.split(" ")
 
-
-
+# Convertir a cadena de texto
+cadena = str(numero)
 
 
 #! Métodos de Lista
@@ -246,3 +245,29 @@ dic_iterable = me.items() #Poder usar bucles y otros más
 # Pedirle los datos a un usuario
 name = input("Tell me your name ") #int → para convertir un string "12" a dato numerico 12
 
+
+
+#! Variables 2.0
+
+# Creando una variable tomando los datos de una tupla
+datos = ("Alfredo", "Back-end", 700)
+
+# Desempaquetado
+name, rol, money = datos
+
+
+#? 3 Formas de crear tuplas
+
+# con tuple
+tupla = tuple(["info one", "info two"])
+
+# sin parentesis
+tupla = "info one", "info two"
+
+# sin parentesis de un solo dato
+tupla = "Info one", 
+
+#? 1 Formas de crear conjunto (set)
+
+# con set
+conjunto = set(["number one", "number two"])
