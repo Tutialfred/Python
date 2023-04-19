@@ -256,7 +256,7 @@ datos = ("Alfredo", "Back-end", 700)
 name, rol, money = datos
 
 
-#? 3 Formas de crear tuplas
+#todo: → 3 Formas de crear tuplas
 
 # con tuple
 tupla = tuple(["info one", "info two"])
@@ -267,7 +267,7 @@ tupla = "info one", "info two"
 # sin parentesis de un solo dato
 tupla = "Info one", 
 
-#? 1 Formas de crear conjunto (set)
+#todo: → 1 Formas de crear conjunto (set)
 
 # con set
 conjunto = set(["number one", "number two"])
