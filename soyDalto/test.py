@@ -5,6 +5,4 @@ print(type(conjunto))
 
 
 
-
-
 #? → SOY DALTO 3:14
