@@ -250,9 +250,8 @@ name = input("Tell me your name ") #int → para convertir un string "12" a dato
 #! Variables 2.0
 
 # Creando una variable tomando los datos de una tupla
-datos = ("Alfredo", "Back-end", 700)
-
 # Desempaquetado
+datos = ("Alfredo", "Back-end", 700)
 name, rol, money = datos
 
 
@@ -271,3 +270,8 @@ tupla = "Info one",
 
 # Con set
 conjunto = set(["number one", "number two"])
+
+
+
+
+
