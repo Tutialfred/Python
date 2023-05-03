@@ -1,5 +1,6 @@
 
 
+
 conjunto = set(["Objeto 1", "objeto 2"])
 
     
