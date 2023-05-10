@@ -248,7 +248,7 @@ name = input("Tell me your name ") #int → para convertir un string "12" a dato
 
 
 #! Variables 2.0
-    
+
 # Creando una variable tomando los datos de una tupla
 # Desempaquetado
 datos = ("Alfredo", "Back-end", 700)
@@ -271,9 +271,41 @@ tupla = "Info one",
 # Con set
 conjunto = set(["number one", "number two"])
 
+# Metiendo un conjunto dentro de otro conjunto
+conjunto1 = frozenset(["Tuti", "Arias"])
+conjunto2 = set([conjunto1, "objeto 2"])
+
+#todo: → Teoria de los conjuntos
+numbers1 = { 1,3,5,7}
+numbers2 = { 1,3,7}
+
+# Verificando si es un subconjunto
+es = numbers2.issubset(numbers1) #* True
+es = numbers2 <= numbers1 #* True
+
+# Verificando si es un superconjunto
+es = numbers2.issuperset(numbers1) #* False
+es = numbers2 > numbers1 #* False
+
+# Verificando si hay datos sin repetir
+es = numbers1.isdisjoint(numbers2) #* False
 
 
 
+# todo: → 4 Formas de crear diccionarios (dict)
+
+# crear un diccionario con dict
+diccionario = dict(name="tuti", business="Clothes or UNDEFINED")
+
+# Las listas no pueden ser claves y usamos fronzenset para meter conjuntos a un diccionario
+diccionario = {frozenset(["Name", "Nombre", "nome"]) : "Oscar Alfredo"}
+
+# Creando diccionarios con fromkeys() → todas las keys con value 'none'
+diccionario = dict.fromkeys(["Nombre", "edad", "Mail", "Numero"])
+
+# Lo mismo que arriba pero con datos un dato especifico para todos
+diccionario = dict.fromkeys(["Name", "lastname", "number"], "Sin-completar")
 
 
 
+# ! Bucles 

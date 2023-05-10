@@ -1,12 +1,13 @@
 
 
 
-conjunto = set(["Objeto 1", "objeto 2"])
+# diccionario1 = dict(name="tuti", business="Clothes or UNDEFINED")
+diccionario = {frozenset(["Name", "Nombre", "nome"]) : "Oscar Alfredo"}
 
-    
-print(conjunto)
-print(type(conjunto))
+diccionario = dict.fromkeys(["Nombre", "edad", "Mail", "Numero"])
+diccionario = dict.fromkeys(["Name", "lastname", "number"], "sin-completar")
+print(diccionario)
 
 
 
-#? → SOY DALTO 3:14
+#? → SOY DALTO 3:30
