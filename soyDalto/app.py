@@ -279,6 +279,7 @@ conjunto2 = set([conjunto1, "objeto 2"])
 numbers1 = { 1,3,5,7}
 numbers2 = { 1,3,7}
 
+
 # Verificando si es un subconjunto
 es = numbers2.issubset(numbers1) #* True
 es = numbers2 <= numbers1 #* True
