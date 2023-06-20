@@ -10,7 +10,6 @@
 # Lenguaje interpretado
 
 
-
 # ! Tipos de datos 
 
 # print("Hello World from python")
