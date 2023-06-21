@@ -34,6 +34,7 @@ saludo = f"Hola {nombre} que tal?"
 
 # print(saludo)
 
+
 # Eliminar una variable
 
 # snake_case
