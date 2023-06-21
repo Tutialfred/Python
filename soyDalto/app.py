@@ -2,12 +2,16 @@
 #Soy dalto
 
 
+
 # Lenguaje de proposito general: se puede usar para cualquier actividad 
 # Lenguaje de alto nivel 
 # Facil de aprender
 # Lenguaje de tipado dinamico
 # Lenguaje orientado a objetos
 # Lenguaje interpretado
+
+
+
 
 
 # ! Tipos de datos 
