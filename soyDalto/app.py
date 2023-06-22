@@ -66,7 +66,6 @@ tupla = ("Alfredo", "Zavala", True, 170.000) #Tipo de datos === tupla
 conjunto = {"Alfredo", "Zavala", True, 170.000} #Elementos desordenados
 # No se accede a elementos por indice, no almacena datos duplicados
 
-
 # Creando un diccionario (dict)
 diccionario = { #Literal es lo mismo que un JSON, key : value
     # Mi pc now
@@ -279,8 +278,8 @@ conjunto1 = frozenset(["Tuti", "Arias"])
 conjunto2 = set([conjunto1, "objeto 2"])
 
 #todo: → Teoria de los conjuntos
-numbers1 = { 1,3,5,7}
-numbers2 = { 1,3,7}
+numbers1 = { 1,3,5,7 }
+numbers2 = { 1,3,7 }
 
 
 # Verificando si es un subconjunto
