@@ -1,4 +1,4 @@
-# Python 
+#Python 
 #Soy dalto
 
 
@@ -129,7 +129,7 @@ print(False | True) #=== True
 print(not True) #=== False
 
 
-#! Métodos de String
+#! Métodos de String    
 name = "Alfredo Zavala"
 numero = 750
 
