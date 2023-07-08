@@ -102,7 +102,7 @@ resto = 12 % 3
 
 edad = 20
 
-if edad > 25 :
+if edad > 25 : 
     print("Eres un adulto, pasa Ya!")
 elif edad >= 18: 
     print("Ya eres mayor de 18")
